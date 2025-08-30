@@ -6,3 +6,27 @@
     grid-template-rows: repeat(2, 100px);
     border: 1px solid black;
 }
+
+.item {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.item-1 {
+    background-color: blue;
+}
+.item-2 {
+    background-color: red;
+}
+.item-3 {
+    background-color: yellow;
+    color: black; /* better contrast */
+}
+.item-4 {
+    background-color: green;
+}
